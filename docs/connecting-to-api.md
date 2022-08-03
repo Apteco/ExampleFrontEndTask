@@ -1,0 +1,3 @@
+# Connecting to the Teal Green Holidays API
+
+The Teal Green Holidays API...

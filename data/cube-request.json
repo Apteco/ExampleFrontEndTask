@@ -1,0 +1,34 @@
+{
+  "baseQuery": {
+    "selection": {
+      "tableName": "People"
+    }
+  },
+  "resolveTableName": "People",
+  "storage": "Full",
+  "leftJoin": false,
+  "dimensions": [
+    {
+      "id": "dimension-1",
+      "type": "Selector",
+      "variableName": "boDest"
+    },
+	{
+      "id": "dimension-2",
+      "type": "DateBand",
+      "variableName": "boDate",
+      "banding": {
+        "type": "Years"
+      }
+    }
+  ],
+  "measures": [
+    {
+      "id": "measure-1",
+      "displayName": "Count",
+      "resolveTableName": "People",
+      "function": "Count"
+    }
+  ],
+  "subTotals": "All"
+}
