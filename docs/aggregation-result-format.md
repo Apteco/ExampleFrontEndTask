@@ -77,4 +77,4 @@ The data in the `measureResults[0].rows` array is structured so that each row ha
 
 The API is documented at https://www.tealgreenholidays.co.uk/OrbitAPI/swagger/ui.  The API provides many endpoints and the discussion of all of them is beyond the scope of this exercise, but the endpoint that returns aggregated results such as the example one is https://www.tealgreenholidays.co.uk/OrbitAPI/swagger/ui/index.html#/Cubes/Cubes_CalculateCubeSynchronously.
 
-The request that was used against the above endpoint to generate the example results can be found in [/data/cube-request.json](../data/cube-request.json).  For details of how to connect to the API to generate the results with this request, see [/docs/connecting-to-api.md](docs/connecting-to-api.md).
+The request that was used against the above endpoint to generate the example results can be found in [/data/cube-request.json](../data/cube-request.json).  For details of how to connect to the API to generate the results with this request, see [/docs/connecting-to-api.md](./connecting-to-api.md).
