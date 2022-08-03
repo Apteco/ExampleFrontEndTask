@@ -16,7 +16,7 @@ To complete this task, you must:
 - Create a project **README.md** where you'll put your project description, notes, assumptions etc...
 - Include basic instructions on how to build and run your application in the README file.
 - Design the front end as you see fit.
-- When you're finished, send over a link to the repo and links to other relevent resources (if any).
+- When you're finished, send over a link to the repo and links to other relevant resources (if any).
 - Feel free to also include any feedback on the task itself!
 
 #### The Scenario
@@ -32,10 +32,10 @@ I would like to see a breakdown of the number of people that have been to each h
 So that I can understand how the numbers of people that have been to each destination has changed over time.
 ```
 
-A JSON object containing the results of a call to the API for an aggregation of all data is available at [/data/cube-results.json](data/cube-results.json).  You should use this data in the format it is provied as the basis for this story.  A description of the format of the data is available at [/docs/aggregation-result-format.md](docs/aggregation-result-format.md).
+A JSON object containing the results of a call to the API for an aggregation of all data is available at [/data/cube-results.json](data/cube-results.json).  You should use this data in the format it is provided as the basis for this story.  A description of the format of the data is available at [/docs/aggregation-result-format.md](docs/aggregation-result-format.md).
 
 #### Extension user stories
-Once the main user story has been completed we would like you to also implement at leat one of the following extensions.
+Once the main user story has been completed we would like you to also implement at least one of the following extensions.
 These aren't listed in priority order so you can choose which one(s) you would like to implement.
 
 ```
@@ -75,7 +75,7 @@ Your project will be assessed on the following criteria (in order of importance)
 4. Choice of frameworks.
 5. UX.
 6. Flair.
-7. *bonus points* if you can host the page and it's dependencies on a publically available location.
+7. *bonus points* if you can host the page and it's dependencies on a publicly available location.
 
 We're trying to see your thought processes with this task. What's more important to us is how you approach the task, rather than the actual final output itself.
 

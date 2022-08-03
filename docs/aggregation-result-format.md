@@ -4,7 +4,7 @@ The Teal Green Holidays API returns data as JSON objects.  The example result fr
 
 ## The Teal Green Holidays dataset
 
-The example result shows information about the number of People that have made Bookings to particular destination countries over time.  The relationship between the Person entity and Booking entity is one-to-many, where each person could have zero or more associated bookings.
+The example results show information about the number of People that have made Bookings to particular destination countries over time.  The relationship between the Person entity and Booking entity is one-to-many, where each person could have zero or more associated bookings.
 
 There are multiple attributes held in the data for each person and booking entity and the example results show an aggregation for Booking Destination and Booking Date (grouped into years).  The numbers returned are counts of people that have one or more bookings that fall into each category (rather than number of bookings for each category).  For example, the following image shows a graphical representation of the same data.  The table shows that there are 28,001 people that have had one or more bookings to Australia in 2018.
 
@@ -20,13 +20,13 @@ The data in [/data/cube-results.json](../data/cube-results.json) is structured i
 | dimensionResults[].headerCodes                                                                    | A tab delimited set of codes for dimension categories                 |
 | dimensionResults[].headerDescriptions                                                             | A tab delimited set of descriptions for dimension categories          |
 | measureResults[]                                                                                  | An array of aggregation results (in this case the count of People)    |
-| dimensionResults[].id                                                                             | The id of the measure                                                 |
-| dimensionResults[].rows                                                                           | An array of tab delimited rows of numeric data (see below)            |
-| dimensionResults[].cells                                                                          | An alternative way of showing numeric data (not used in this example) |
+| measureResults[].id                                                                               | The id of the measure                                                 |
+| measureResults[].rows                                                                             | An array of tab delimited rows of numeric data (see below)            |
+| measureResults[].cells                                                                            | An alternative way of showing numeric data (not used in this example) |
 | cube                                                                                              | The specification of the aggregation request (optional)               |
 | counts[]                                                                                          | An array of the total number of entities being analysed               |
 | counts[].tableName                                                                                | The name of the entity (table) for this count                         |
-| counts[].countValue                                                                               | The total number of entites being analysed                            |
+| counts[].countValue                                                                               | The total number of entities being analysed                            |
 
 For example, a simplifed version of the results is as follows, with a small dummy dataset and skipping some unnecessary properties:
 
