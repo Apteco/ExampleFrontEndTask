@@ -1,5 +1,7 @@
 # Holiday destination pivot table front-end application
 
+![Destination By Year](./docs/teal-green-holidays.jpg)
+
 This is a front-end development exercise that we expect you to be able to complete in around one week of your own time.
 
 ## The task
