@@ -75,7 +75,7 @@ Your project will be assessed on the following criteria (in order of importance)
 4. Choice of frameworks.
 5. UX.
 6. Flair.
-7. *bonus points* if you can host the page and it's dependencies on a publicly available location.
+7. *bonus points* if you can host the page and its dependencies on a publicly available location.
 
 We're trying to see your thought processes with this task. What's more important to us is how you approach the task, rather than the actual final output itself.
 
