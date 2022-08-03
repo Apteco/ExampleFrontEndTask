@@ -13,9 +13,10 @@ To complete this task, you must:
 - Read the scenario, main user story and extension stories below.
 - Create a single webpage application to fulfil the requirements of the main story plus **at least one** of the extension stories (they aren't listed in priority order - you can choose which one(s) you want to tackle).
 - Create a git repository on a public host (such as GitHub) and **continuously** commit your code as you work towards your solution.
-- Create a project **README.md** where you'll put your project description, notes, assumptions etc...
+- Create a project **README.md** where you'll put your project description, implementation notes, problems, assumptions etc...
 - Include basic instructions on how to build and run your application in the README file.
 - Design the front end as you see fit.
+- If you have questions then please feel free to get in touch.  We can't promise to respond immediately night or day, but we'll aim to get back to you as soon as we can.
 - When you're finished, send over a link to the repo and links to other relevant resources (if any).
 - Feel free to also include any feedback on the task itself!
 
