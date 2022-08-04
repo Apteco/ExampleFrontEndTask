@@ -26,7 +26,7 @@ The data in [/data/cube-results.json](../data/cube-results.json) is structured i
 | cube                                                                                              | The specification of the aggregation request (optional)               |
 | counts[]                                                                                          | An array of the total number of entities being analysed               |
 | counts[].tableName                                                                                | The name of the entity (table) for this count                         |
-| counts[].countValue                                                                               | The total number of entities being analysed                            |
+| counts[].countValue                                                                               | The total number of entities being analysed                           |
 
 For example, a simplifed version of the results is as follows, with a small dummy dataset and skipping some unnecessary properties:
 
