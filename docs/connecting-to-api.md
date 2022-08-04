@@ -10,6 +10,18 @@ The process to authenticate with the Teal Green Holidays API and then call the `
 
 Although it shouldn't be necessary for this task, if you are interested then this is further documentation and links to other examples at https://github.com/Apteco/AptecoAPIGuides
 
+## CORS
+
+The Teal Green Holidays API has Cross-Origin Resource Sharing (CORS) settings applied so that by default only web applications served from a limited set of domains and ports will be able to access the API.  These include:
+
+- http://localhost:4200
+- http://localhost:3000
+- http://localhost:8080
+- http://localhost
+- https://localhost
+
+This should allow easy development of an application, but you may need to contact us if you choose to host an application on a public server that then connects back to the API. 
+
 ## Authentication
 
 1. Call the `Sessions_CreateSimpleSession` endpoint.  You will need a DataView name (which for the Teal Green Holidays API is `CloudDemo`), user login and password (which can be provided on request).  The DataView name is passed as part of the URL and the user login and password are passed as form parameters.
